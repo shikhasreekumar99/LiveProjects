@@ -1,0 +1,401 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background:url(../images/body_bg.jpg) repeat-x top #eae9d7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#4a4b4a;
+	}
+#wrapper{
+	margin:auto;
+	padding:inherit;
+	width:1000px;
+	height:auto;
+	}
+.clear{
+	clear:both;
+	}
+#header{
+	width:1000px;
+	height:115px;
+	float:left;
+	padding:0px 0px 0px 0px;
+	}
+.menu_font{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#fff;
+	}
+.menu_font:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#c1bc17;
+	}
+.hed_font{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:22px;
+	color:#598b30;
+	}
+.hed_font2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:22px;
+	color:#fe8610;
+	}
+.su_font{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+	line-height:22px;
+	color:#1f5c01;
+	}
+.lang{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:16px;
+	color:#d3fcd2;
+	}
+.sub_font{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:22px;
+	color:#504f4f;
+	}
+.footer_font{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#8f908d;
+	}
+.footer_link{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#8f908d;
+	}
+.footer_link:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#51524f;
+	}
+.ph_font{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	text-align:left;
+	text-decoration:none;
+	line-height:28px;
+	color:#fff;
+	}
+.logo{
+	width:321px;
+	height:auto;
+	float:left;
+	padding:58px 0px 0px 36px;
+	}
+.logo_right{
+	width:643px;
+	height:auto;
+	float:left;
+	padding:0px 0px 0px 0px;
+	}
+
+.menu{
+	width:458px;
+	height:45px;
+	float:left;
+	padding:3px 0px 0px 185px;
+	background:url(../images/menu_bg.png) no-repeat top;
+	}
+.pho{
+	width:308px;
+	height:auto;
+	float:left;
+	padding:3px 0px 0px 335px;
+	}
+.ph{
+	width:37px;
+	height:30px;
+	float:left;
+	}
+.home{
+	width:54px;
+	height:auto;
+	float:left;
+	}
+.abo{
+	width:101px;
+	height:auto;
+	float:left;
+	}
+.car{
+	width:119px;
+	height:auto;
+	float:left;
+	}
+.con{
+	width:126px;
+	height:auto;
+	float:left;
+	}
+#banner{
+	width:1000px;
+	height:412px;
+	float:left;
+	padding:0px 0px 10px 0px;
+	}
+#mid_content{
+	width:1000px;
+	height:auto;
+	float:left;
+	background:url(../images/mid_bg.png) repeat-y top;
+	}
+.mid_inner{
+	width:970px;
+	height:auto;
+	float:left;
+	padding:15px 15px 10px 15px;
+	}
+.welcome{
+	width:629px;
+	height:auto;
+	float:left;
+	padding:0px 40px 20px 40px;
+	}
+.welcome2{
+	width:890px;
+	height:auto;
+	float:left;
+	padding:0px 40px 20px 40px;
+	}
+.line{
+	width:629px;
+	height:5px;
+	float:left;
+	border-bottom:dotted 1px #CCCCCC;
+	}
+.line2{
+	width:205px;
+	height:5px;
+	float:left;
+	border-bottom:dotted 1px #CCCCCC;
+	}
+.line3{
+	width:890px;
+	height:30px;
+	float:left;
+	border-bottom:dotted 1px #CCCCCC;
+	}
+.contact{
+	width:261px;
+	height:auto;
+	float:left;
+	}
+.contact_inn{
+	width:213px;
+	height:auto;
+	float:left;
+	border: solid 1px #CCCCCC;
+	padding:10px 0px 15px 15px ;
+	}
+.car_top{
+	width:904px;
+	height:36px;
+	float:left;
+	background:url(../images/car_top.jpg) no-repeat top;
+	padding:0px 35px 0px 30px;
+	}
+.car_mid{
+	width:950px;
+	height:auto;
+	float:left;
+	background:url(../images/car_mid.gif) repeat-y top;
+	padding:0px 0px 0px 19px;
+	}
+.car_bottom{
+	width:969px;
+	height:18px;
+	float:left;
+	background:url(../images/car_bottom.jpg) no-repeat top;
+	}
+.ct_inn{
+	width:450px;
+	height:auto;
+	float:left;
+	padding-top:7px;
+	}
+.car_area{
+	width:969px;
+	height:auto;
+	float:left;
+	padding-top:15px;
+	}
+.book_now{
+	width:90px;
+	height:22px;
+	float:right;
+	}
+.cr{
+	width:188px;
+	height:166px;
+	float:left;
+	}
+.cr_in{
+	width:188px;
+	height:25px;
+	float:left;
+	padding-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+	line-height:18px;
+	color:#097df6;
+	}
+.mid_bottom{
+	width:1000px;
+	height:18px;
+	float:left;
+	background:url(../images/mid_bottom.png) no-repeat top;
+	}
+#footer{
+	width:930px;
+	height:50px;
+	float:left;
+	padding:10px 35px 0px 35px;
+	}
+.footer_inner{
+	width:465px;
+	height:auto;
+	float:left;
+	}
+.imge{
+	width:218px;
+	height:146px;
+	float:left;
+	padding:10px 15px 10px 0px;
+	}
+.con_rig{
+	width:657px;
+	height:auto;
+	float:left;
+	padding:10px 0px 10px 0px;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+	
+	
+	
+.table_border{
+	margin-top:10px;
+    margin-bottom:10px;
+	clear:both;
+    border-collapse : collapse;
+    border-spacing : 0;
+    font-size : inherit;
+    
+}
+.table_border .Odd{
+	background-color:#FFFFFF;
+}
+.table_border th  , .table_border td {
+	border:1px solid #2e2e2d;
+	padding:3px;
+    font-size:14px;
+}
+.table_border th{
+    font-family:Arial, Helvetica, sans-serif;
+    border-right:1px solid #fff;
+}
+.table_border td{
+    font-size:12px;
+}
+
+.table_border th{
+	background-color:#4b6426;
+	color:#fff;
+}
+.remove_table_border th  , .remove_table_border td {
+	border:none;
+	padding:3px;
+	vertical-align:top;
+}
+.table_border .Name{
+	width:100px;
+}
+.whiteButton{
+    font-size:12px;
+}
+.whiteButton span{
+    color:#fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

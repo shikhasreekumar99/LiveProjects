@@ -1,0 +1,13 @@
+
+.sample{padding:0px 0px; margin:0px 0 0px 0; border:0px solid #e1e1e1}
+h4.stitle{color:#666;margin:0 0 5px 0}
+
+.links {padding:10px;margin-top:20px}
+.links a{font-size:14px;color:#0080FF;text-decoration:none}
+.links a:hover{font-weight:bold}
+
+#cont{width:990px;margin:0 auto;background:url(../images/123.jpg) repeat-x;text-align:left;padding:0px 5px 0px 5px;}
+
+.buttons{padding:5px;}
+.buttons span{color:#0080FF;padding:0 5px;cursor:pointer;font:10px Verdana}
+.buttons span.active, .buttons span:hover{background:#0080FF;color:#fff}

@@ -1,0 +1,8 @@
+  <mail>
+  <smtpServer>mail.ebizwebsolutions.com</smtpServer>
+  <username>test@ebizwebsolutions.com</username>
+  <password>ebiztest123</password>
+  <port>25</port>
+  <toAddress>info@keralataxitours.com</toAddress>
+  <subject>contactUs</subject>
+  </mail>

@@ -1,0 +1,128 @@
+<?php 
+require_once('db.php');
+if(!isset($_SESSION['login'])){
+	header('Location: index.php');
+	exit;
+	
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+   <?php require_once('header.php'); ?>
+   
+  </head>
+  <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
+  <body class="skin-blue fixed">
+ <!-- Site wrapper -->
+    <div class="wrapper">
+      
+        <?php require_once('menu.php'); ?>
+      </header>
+
+      <!-- =============================================== -->
+
+      <!-- Left side column. contains the sidebar -->
+      
+
+      <!-- =============================================== -->
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+         
+          <!--  <small>Blank example to the fixed layout</small>-->
+          </h1>
+          <ol class="breadcrumb">
+         
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+         
+          <!-- Default box -->
+          <!-- <div class="box">
+           <div class="box-header with-border">
+              <h3 class="box-title">Title</h3>
+           </div>
+            </div>-->
+            <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">View Latest Video </h3>
+                </div>
+                <div class="box-body">
+                  <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+                  <div class="row"><div class="col-sm-12">
+                  
+                   <?php 
+
+$sql ="SELECT * FROM `note` where `note_id`='3'"; 
+$rs_result = mysqli_query ($con,$sql); //run the query
+?> 
+                  
+         <table id="datatable" class="table table-bordered table-striped ">
+                    <thead>
+                      <tr role="row">
+                      
+                       <th>Video URL </th>
+                      <th >Edit </th>
+                      
+                     
+                     </tr>
+                    </thead>
+                    <tbody>
+                      
+                     <?php
+	   while($row=mysqli_fetch_array($rs_result))
+	{
+  
+   $url =$row['description'];
+   $src= substr(parse_url($url, PHP_URL_PATH), 1); 
+		
+		?>
+        <tr>
+        
+       <td><iframe width="250" height="150" src="https://www.youtube.com/embed/<?php echo $src;?>" frameborder="0" allowfullscreen></iframe>
+</td>
+       <td><a href="edit_video.php"><button type="button" class="btn bg-purple margin">Edit</button></a></td>
+       
+       
+      </tr>
+  <?php
+}  
+?>
+                   </tbody>
+ 
+</table>
+               
+                  </div></div></div>
+                </div> 
+              </div>
+            
+          </div><-- /.box -->
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 2.0
+        </div>
+        <strong>Copyright &copy; 2014-2015 .</strong> All rights reserved.
+      </footer>
+  </div><!-- ./wrapper -->
+   <script src="plugins/jQuery/jQuery-2.1.3.min.js"></script>
+   
+  
+   
+ <?php require_once('footer.php'); ?>
+  
+</body>
+</html>
